@@ -242,189 +242,6 @@ color: #4c69cf;
 
 
 
-/* start contact */
-.contact-container{
-    background-image: linear-gradient(90deg, #6788ff  50%,#f5f6fa 50%);;
-}
-
-
-
-
-.contact .contactheader{
-    text-align: center;
-   
-}
-.contact .contactheader h2{
-    font-family: "Roboto", sans-serif;
-    font-size: 45px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    margin-bottom: 80px;
-    text-transform: capitalize;
-    /* opacity: .5; */
-    color: #142e8f;
-    text-shadow: -5px 0px 2px rgb(5, 129, 61);
-}
-
-.contact .contactrow .info i{
-
-    margin: 0px 10px;
-    font-size: 28px;
-    color: #142e8f;
-    width: 40px;
-    background-color: #fff;
-    padding: 5px 10px;
-    border-radius: 50%;
-    text-align: center;
-  
-}
-
-
-
-.contact .contactrow .info p{
- margin-top: 10px;
-    align-items: center;
-    color: #142e8f;
-     color: #fff; 
-}
-.contact .contactrow .info iframe{
-  width: 98%;
-  border-radius: 12px;
-  
-}
-.contact .contactrow .info .address {
-    display: flex;
-    margin: 0px 0px 30px;
-}
-.contact .contactrow .info .email ,.phone{
-    display: flex;
-    margin: 30px 0px;
-}
-.contact .contactrow {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.contact .contactrow .info{
-    width: 40%;
- 
-    
-}
-.contact .contactrow .contactform{
-    width: 40%;
-    text-align: center;
-}
-.contact .contactrow .contactform input{
-    width: 100%;
-   margin-bottom: 10px;
-    height: 40px;
-    opacity: .9;
-}
-.contact .contactrow .contactform input:focus{
-    border: 2px solid #6788ff;
-    outline: none;
-}
-.contact .contactrow .contactform  textarea{
-    width: 100%;
-    height: 120px;
-}
-.contact .contactrow .contactform p{
-    align-items: center;
-    text-align: center;
-}
-
-.contact .contactrow .contactform button{
-    margin: 10px 0px;
-   color: #fff;
-    background-color: #142e8f;
-    width: 180px;
-    height: 50px;
-    border-color: #142e8f;
-    font-size: 16px;
-    transition: all .5s;
-    
-}
-.contact .contactrow .contactform button:hover{
-    background-color: #6788ff;
-    border-color: transparent;
-}
-@media (max-width: 960px) {
-    .contact .contactrow .contactform{
-        width: 50%;
-    }
-    .contact .contactrow .info{
-        width: 40%;
-    }
-    .contact .contactrow{
-        justify-content: space-between;
-    }
-    
-}
-/* @media (max-width: 750px) {
-    .contact-container{
-        background-image: linear-gradient(90deg, #fafafa  50%, #fafafa 50%);;
-    }
-    .contact .contactrow .info p{
-        margin-top: 10px;
-           align-items: center;
-           color: #142e8f;
-           
-       }
-    .contact .contactrow .contactform{
-        width: 50%;
-    }
-    .contact .contactrow .info{
-        width: 40%;
-    }
-    .contact .contactrow{
-        justify-content: space-between;
-        
-        
-    }
-    } */
-    
-
-@media (max-width: 700px){
-    .contact .contactrow .info p{
-        margin-top: 10px;
-           align-items: center;
-           color: #142e8f;
-           
-       }
-    .contact-container{
-        background-image: linear-gradient(90deg, #fafafa  50%, #fafafa 50%);;
-    }
-    
-    .contact{
-        margin: 0px 30px;
-    }
-    .contact .contactrow{
-        display: block;
-    }
-    .contact .contactrow .info{
-        width: 100%;
-    }
-    .contact .contactrow .contactform{
-        text-align: left;
-        width: 100%;
-    }
-    .contact .contactrow .contactform{
-        padding: 20px 0px;}
-        .contact .contactrow .contactform input{
-            width: 100%;
-        }
-        .contact .contactrow .contactform  textarea{
-            width: 100%;
-        }
-}
-
-
-
-
-
-
 
 
 
@@ -894,14 +711,7 @@ background-color: #6788ff;
     from {transform: translatey(-50px);}
   
  }
- 
- 
- 
- 
- 
- 
- 
- 
+
  
  
  @media (max-width: 640px) {
@@ -924,40 +734,208 @@ background-color: #6788ff;
         margin-top: 20px;
       }
 
-     /* .section3 .row {
-        margin: 40px 10px;
     
-       text-align: center;
-  
-} 
-
-.section3 .row .info{
-   width: 100%;
-}
-
-
-.section3 .row .info h3{
-    font-size: 180%;
-    padding: 15px 0px;
-    border-bottom: 2px #6788ff solid;
-   
-   
-    margin-bottom: 50px;
-   
-    margin: auto;
-   
- }
-     */
 
  
 
 }
 
-/* @media (max-width: 600px){
-    .servicecontainer .servicerow .cardrow1{
-        width: 95%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start contact */
+.contact-container{
+    background-image: linear-gradient(90deg, #6788ff  50%,#f5f6fa 50%);;
+}
+
+
+
+
+.contact .contactheader{
+    text-align: center;
+   
+}
+.contact .contactheader h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+    /* opacity: .5; */
+    color: #142e8f;
+    text-shadow: -5px 0px 2px rgb(5, 129, 61);
+}
+
+.contact .contactrow .info i{
+
+    margin: 0px 10px;
+    font-size: 28px;
+    color: #142e8f;
+    width: 40px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 50%;
+    text-align: center;
+  
+}
+
+
+
+.contact .contactrow .info p{
+ margin-top: 10px;
+    align-items: center;
+    color: #142e8f;
+     color: #fff; 
+}
+.contact .contactrow .info iframe{
+  width: 98%;
+  border-radius: 12px;
+  
+}
+.contact .contactrow .info .address {
+    display: flex;
+    margin: 0px 0px 30px;
+}
+.contact .contactrow .info .email ,.phone{
+    display: flex;
+    margin: 30px 0px;
+}
+.contact .contactrow {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .contactrow .info{
+    width: 40%;
+ 
+    
+}
+.contact .contactrow .contactform{
+    width: 40%;
+    text-align: center;
+}
+.contact .contactrow .contactform input{
+    width: 100%;
+   margin-bottom: 10px;
+    height: 40px;
+    opacity: .9;
+}
+.contact .contactrow .contactform input:focus{
+    border: 2px solid #6788ff;
+    outline: none;
+}
+.contact .contactrow .contactform  textarea{
+    width: 100%;
+    height: 120px;
+}
+.contact .contactrow .contactform p{
+    align-items: center;
+    text-align: center;
+}
+
+.contact .contactrow .contactform button{
+    margin: 10px 0px;
+   color: #fff;
+    background-color: #142e8f;
+    width: 180px;
+    height: 50px;
+    border-color: #142e8f;
+    font-size: 16px;
+    transition: all .5s;
+    
+}
+.contact .contactrow .contactform button:hover{
+    background-color: #6788ff;
+    border-color: transparent;
+}
+@media (max-width: 960px) {
+    .contact .contactrow .contactform{
+        width: 50%;
     }
-} */
+    .contact .contactrow .info{
+        width: 40%;
+    }
+    .contact .contactrow{
+        justify-content: space-between;
+    }
+    
+}
+/* @media (max-width: 750px) {
+    .contact-container{
+        background-image: linear-gradient(90deg, #fafafa  50%, #fafafa 50%);;
+    }
+    .contact .contactrow .info p{
+        margin-top: 10px;
+           align-items: center;
+           color: #142e8f;
+           
+       }
+    .contact .contactrow .contactform{
+        width: 50%;
+    }
+    .contact .contactrow .info{
+        width: 40%;
+    }
+    .contact .contactrow{
+        justify-content: space-between;
+        
+        
+    }
+    } */
+    
+
+@media (max-width: 700px){
+    .contact .contactrow .info p{
+        margin-top: 10px;
+           align-items: center;
+           color: #142e8f;
+           
+       }
+    .contact-container{
+        background-image: linear-gradient(90deg, #fafafa  50%, #fafafa 50%);;
+    }
+    
+    .contact{
+        margin: 0px 30px;
+    }
+    .contact .contactrow{
+        display: block;
+    }
+    .contact .contactrow .info{
+        width: 100%;
+    }
+    .contact .contactrow .contactform{
+        text-align: left;
+        width: 100%;
+    }
+    .contact .contactrow .contactform{
+        padding: 20px 0px;}
+        .contact .contactrow .contactform input{
+            width: 100%;
+        }
+        .contact .contactrow .contactform  textarea{
+            width: 100%;
+        }
+}
+
+
+
 /* start footer */
 .footer{
    
@@ -992,7 +970,7 @@ background-color: #6788ff;
 
 
 
-
+/*  start mobil-design */
 
 
 
@@ -1110,3 +1088,4 @@ color: #fff;
         display: block;
     }
  }
+/*  end  mobil-design */
